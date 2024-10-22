@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Bahnschrift;
+    background-color: whitesmoke;
+}
+
+.menus{
+    list-style: none;
+    background-color: #d39eff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px
+}
+.titulo{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50pt;
+    text-indent: 50px;
+    background-color: #d39eff;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d39eff;
+}
+.img1{
+    width: 240px;
+    height: 200px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 10px;
+    border-radius: 100000px
+}
+.img1, ul{
+    list-style: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    line-height: 30pt;
+    text-indent: 50px;
+}
+.texto1{
+    font-size: large;
+    width: 50%;
+    height: 200px;
+    border-style: solid;
+    border-color: #d39eff;
+    border-width: 3px;
+}
+.texto2{
+    font-size: large;
+    width: 50%;
+    height: 200px;
+    border-style: solid;
+    border-color: #d39eff;
+    border-width: 3px;
+}
+.imgs{
+    gap: 20px;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info{
+    text-align: inherit;
+}
+.beneficios{
+    background-color: #d39eff;
+    text-align: center;
+    padding: 10px;
+}
+
+.itensBeneficios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.itensBeneficios img{
+    width: 100px;
+    border-radius: 15px;
+}
